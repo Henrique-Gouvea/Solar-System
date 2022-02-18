@@ -1,0 +1,12 @@
+.mission-card {
+    border: 1px solid white;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    width: 200px;
+    opacity: 0.5;
+}
+
+.mission-card:hover {
+    opacity: 1;
+}

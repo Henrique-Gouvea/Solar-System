@@ -1,0 +1,4 @@
+.container-planet-card {
+    display: flex;
+    flex-wrap: wrap;
+}

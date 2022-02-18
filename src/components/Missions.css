@@ -1,0 +1,4 @@
+.constainer-mission-card {
+  display: flex;
+  flex-wrap: wrap;
+};
