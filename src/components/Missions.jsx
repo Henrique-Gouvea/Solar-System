@@ -9,14 +9,15 @@ class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <div className='constainer-mission-card'>
-          {missions.map((mis) => (<MissionCard
-            key={ mis.name }
-            name={ mis.name }
-            year={ mis.year }
-            country={ mis.country }
-            destination={ mis.destination }
-          />
+        <div className="constainer-mission-card">
+          {missions.map((mis) => (
+            <MissionCard
+              key={ mis.name }
+              name={ mis.name }
+              year={ mis.year }
+              country={ mis.country }
+              destination={ mis.destination }
+            />
           ))}
         </div>
       </div>
