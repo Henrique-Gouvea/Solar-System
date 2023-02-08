@@ -1,4 +1,4 @@
-.planet-card {
+.card-planet {
     width: 160px;
     text-align: center;
     color: white;
@@ -10,7 +10,7 @@ img {
     max-width: 100%;
 }
 
-.planet-card:hover {
+.card-planet:hover {
     transform: scale(1.3);
     opacity: 1;
 }
